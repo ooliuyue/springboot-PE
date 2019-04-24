@@ -1,0 +1,8 @@
+#rabbitmq相关配置
+spring:
+  rabbitmq:
+    port: 5672
+    username: test
+    password: password
+    host: 120.92.4.53
+    publisher-confirms: true
