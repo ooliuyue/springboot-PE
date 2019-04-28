@@ -9,12 +9,14 @@
         <module name="order" />
         <module name="product" />
         <module name="zookeeper" />
+        <module name="zookeeperlock" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="order" target="1.8" />
       <module name="product" target="1.8" />
       <module name="zookeeper" target="1.8" />
+      <module name="zookeeperlock" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
